@@ -1,0 +1,31 @@
+{
+  "name": "rwa-rxjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "api" : "json-server --watch baza.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NMilenovic/RWA-RxJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NMilenovic/RWA-RxJS/issues"
+  },
+  "homepage": "https://github.com/NMilenovic/RWA-RxJS#readme",
+  "devDependencies": {
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
